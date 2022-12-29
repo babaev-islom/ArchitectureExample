@@ -11,6 +11,35 @@
 		A163F1E5295D70A000086B94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F1E4295D70A000086B94 /* SceneDelegate.swift */; };
 		A163F1EC295D70A100086B94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A163F1EB295D70A100086B94 /* Assets.xcassets */; };
 		A163F1EF295D70A100086B94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A163F1ED295D70A100086B94 /* LaunchScreen.storyboard */; };
+		A163F1F8295D714400086B94 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F1F7295D714400086B94 /* User.swift */; };
+		A163F1FA295D716C00086B94 /* UserLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F1F9295D716C00086B94 /* UserLoader.swift */; };
+		A163F1FE295D768800086B94 /* RemoteUserLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F1FD295D768800086B94 /* RemoteUserLoader.swift */; };
+		A163F200295D773B00086B94 /* UserMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F1FF295D773B00086B94 /* UserMapper.swift */; };
+		A163F202295D77D300086B94 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F201295D77D300086B94 /* APIClient.swift */; };
+		A163F205295D781E00086B94 /* APIClientStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F204295D781E00086B94 /* APIClientStub.swift */; };
+		A163F208295D7B9300086B94 /* UserItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F207295D7B9300086B94 /* UserItem.swift */; };
+		A163F20B295D7BB000086B94 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F20A295D7BB000086B94 /* UserListViewController.swift */; };
+		A163F20F295D7E4B00086B94 /* UserViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F20E295D7E4B00086B94 /* UserViewAdapter.swift */; };
+		A163F211295D7F4200086B94 /* UserFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F210295D7F4200086B94 /* UserFactory.swift */; };
+		A163F213295D812600086B94 /* MainQueueDispatchDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F212295D812600086B94 /* MainQueueDispatchDecorator.swift */; };
+		A163F217295D83A800086B94 /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F216295D83A800086B94 /* UserDetails.swift */; };
+		A163F219295D83D700086B94 /* UserDetailsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F218295D83D700086B94 /* UserDetailsLoader.swift */; };
+		A163F21C295D843600086B94 /* RemoteUserDetailsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F21B295D843600086B94 /* RemoteUserDetailsLoader.swift */; };
+		A163F21E295D880300086B94 /* APIClient2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F21D295D880300086B94 /* APIClient2.swift */; };
+		A163F220295D881600086B94 /* UserDetailsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F21F295D881600086B94 /* UserDetailsMapper.swift */; };
+		A163F223295D892F00086B94 /* ApiClientStub2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F222295D892F00086B94 /* ApiClientStub2.swift */; };
+		A163F226295D8AD000086B94 /* UserDetailsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F225295D8AD000086B94 /* UserDetailsItem.swift */; };
+		A163F229295D8BBD00086B94 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F228295D8BBD00086B94 /* UserDetailsViewController.swift */; };
+		A163F22C295D8CA400086B94 /* UserDetailsViewControllerAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F22B295D8CA400086B94 /* UserDetailsViewControllerAdapter.swift */; };
+		A163F22E295D8D3600086B94 /* UIKitUserDetailsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F22D295D8D3600086B94 /* UIKitUserDetailsFactory.swift */; };
+		A163F230295D8D6D00086B94 /* MainQueueDispatchDecorator2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F22F295D8D6D00086B94 /* MainQueueDispatchDecorator2.swift */; };
+		A163F234295D90E500086B94 /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F233295D90E500086B94 /* UserDetailsView.swift */; };
+		A163F236295D915B00086B94 /* UserDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F235295D915B00086B94 /* UserDetailsViewModel.swift */; };
+		A163F23A295D924B00086B94 /* UserDetailsViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F239295D924B00086B94 /* UserDetailsViewAdapter.swift */; };
+		A163F23C295D928900086B94 /* SwiftUIUserDetailsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F23B295D928900086B94 /* SwiftUIUserDetailsFactory.swift */; };
+		A163F23E295D939900086B94 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F23D295D939900086B94 /* UserListViewModel.swift */; };
+		A163F240295D945F00086B94 /* UserViewWithViewModelAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F23F295D945F00086B94 /* UserViewWithViewModelAdapter.swift */; };
+		A163F242295D954B00086B94 /* UserFactoryWithViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163F241295D954B00086B94 /* UserFactoryWithViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +49,35 @@
 		A163F1EB295D70A100086B94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A163F1EE295D70A100086B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A163F1F0295D70A100086B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A163F1F7295D714400086B94 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A163F1F9295D716C00086B94 /* UserLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoader.swift; sourceTree = "<group>"; };
+		A163F1FD295D768800086B94 /* RemoteUserLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteUserLoader.swift; sourceTree = "<group>"; };
+		A163F1FF295D773B00086B94 /* UserMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMapper.swift; sourceTree = "<group>"; };
+		A163F201295D77D300086B94 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		A163F204295D781E00086B94 /* APIClientStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientStub.swift; sourceTree = "<group>"; };
+		A163F207295D7B9300086B94 /* UserItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItem.swift; sourceTree = "<group>"; };
+		A163F20A295D7BB000086B94 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		A163F20E295D7E4B00086B94 /* UserViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewAdapter.swift; sourceTree = "<group>"; };
+		A163F210295D7F4200086B94 /* UserFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFactory.swift; sourceTree = "<group>"; };
+		A163F212295D812600086B94 /* MainQueueDispatchDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainQueueDispatchDecorator.swift; sourceTree = "<group>"; };
+		A163F216295D83A800086B94 /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		A163F218295D83D700086B94 /* UserDetailsLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsLoader.swift; sourceTree = "<group>"; };
+		A163F21B295D843600086B94 /* RemoteUserDetailsLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteUserDetailsLoader.swift; sourceTree = "<group>"; };
+		A163F21D295D880300086B94 /* APIClient2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient2.swift; sourceTree = "<group>"; };
+		A163F21F295D881600086B94 /* UserDetailsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsMapper.swift; sourceTree = "<group>"; };
+		A163F222295D892F00086B94 /* ApiClientStub2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClientStub2.swift; sourceTree = "<group>"; };
+		A163F225295D8AD000086B94 /* UserDetailsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsItem.swift; sourceTree = "<group>"; };
+		A163F228295D8BBD00086B94 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		A163F22B295D8CA400086B94 /* UserDetailsViewControllerAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewControllerAdapter.swift; sourceTree = "<group>"; };
+		A163F22D295D8D3600086B94 /* UIKitUserDetailsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitUserDetailsFactory.swift; sourceTree = "<group>"; };
+		A163F22F295D8D6D00086B94 /* MainQueueDispatchDecorator2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainQueueDispatchDecorator2.swift; sourceTree = "<group>"; };
+		A163F233295D90E500086B94 /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
+		A163F235295D915B00086B94 /* UserDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewModel.swift; sourceTree = "<group>"; };
+		A163F239295D924B00086B94 /* UserDetailsViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewAdapter.swift; sourceTree = "<group>"; };
+		A163F23B295D928900086B94 /* SwiftUIUserDetailsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIUserDetailsFactory.swift; sourceTree = "<group>"; };
+		A163F23D295D939900086B94 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		A163F23F295D945F00086B94 /* UserViewWithViewModelAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewWithViewModelAdapter.swift; sourceTree = "<group>"; };
+		A163F241295D954B00086B94 /* UserFactoryWithViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFactoryWithViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +112,184 @@
 			children = (
 				A163F1E2295D70A000086B94 /* AppDelegate.swift */,
 				A163F1E4295D70A000086B94 /* SceneDelegate.swift */,
+				A163F1F6295D713D00086B94 /* User */,
+				A163F214295D838800086B94 /* UserDetails */,
 				A163F1EB295D70A100086B94 /* Assets.xcassets */,
 				A163F1ED295D70A100086B94 /* LaunchScreen.storyboard */,
 				A163F1F0295D70A100086B94 /* Info.plist */,
 			);
 			path = ArchitectureExample;
+			sourceTree = "<group>";
+		};
+		A163F1F6295D713D00086B94 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				A163F20D295D7E4500086B94 /* Composition */,
+				A163F1FB295D719100086B94 /* Domain */,
+				A163F1FC295D767F00086B94 /* API */,
+				A163F203295D77D700086B94 /* Infra */,
+				A163F206295D7B8E00086B94 /* Presentation */,
+				A163F209295D7BA500086B94 /* UI */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		A163F1FB295D719100086B94 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				A163F1F7295D714400086B94 /* User.swift */,
+				A163F1F9295D716C00086B94 /* UserLoader.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		A163F1FC295D767F00086B94 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A163F1FD295D768800086B94 /* RemoteUserLoader.swift */,
+				A163F1FF295D773B00086B94 /* UserMapper.swift */,
+				A163F201295D77D300086B94 /* APIClient.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A163F203295D77D700086B94 /* Infra */ = {
+			isa = PBXGroup;
+			children = (
+				A163F204295D781E00086B94 /* APIClientStub.swift */,
+			);
+			path = Infra;
+			sourceTree = "<group>";
+		};
+		A163F206295D7B8E00086B94 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				A163F207295D7B9300086B94 /* UserItem.swift */,
+				A163F23D295D939900086B94 /* UserListViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		A163F209295D7BA500086B94 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A163F20A295D7BB000086B94 /* UserListViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A163F20D295D7E4500086B94 /* Composition */ = {
+			isa = PBXGroup;
+			children = (
+				A163F20E295D7E4B00086B94 /* UserViewAdapter.swift */,
+				A163F212295D812600086B94 /* MainQueueDispatchDecorator.swift */,
+				A163F210295D7F4200086B94 /* UserFactory.swift */,
+				A163F23F295D945F00086B94 /* UserViewWithViewModelAdapter.swift */,
+				A163F241295D954B00086B94 /* UserFactoryWithViewModel.swift */,
+			);
+			path = Composition;
+			sourceTree = "<group>";
+		};
+		A163F214295D838800086B94 /* UserDetails */ = {
+			isa = PBXGroup;
+			children = (
+				A163F22A295D8C9B00086B94 /* Composition */,
+				A163F215295D83A200086B94 /* Domain */,
+				A163F21A295D842800086B94 /* API */,
+				A163F221295D892200086B94 /* Infra */,
+				A163F224295D8AB700086B94 /* Presentation */,
+				A163F227295D8BAB00086B94 /* UI */,
+			);
+			path = UserDetails;
+			sourceTree = "<group>";
+		};
+		A163F215295D83A200086B94 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				A163F216295D83A800086B94 /* UserDetails.swift */,
+				A163F218295D83D700086B94 /* UserDetailsLoader.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		A163F21A295D842800086B94 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A163F21B295D843600086B94 /* RemoteUserDetailsLoader.swift */,
+				A163F21F295D881600086B94 /* UserDetailsMapper.swift */,
+				A163F21D295D880300086B94 /* APIClient2.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A163F221295D892200086B94 /* Infra */ = {
+			isa = PBXGroup;
+			children = (
+				A163F222295D892F00086B94 /* ApiClientStub2.swift */,
+			);
+			path = Infra;
+			sourceTree = "<group>";
+		};
+		A163F224295D8AB700086B94 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				A163F225295D8AD000086B94 /* UserDetailsItem.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		A163F227295D8BAB00086B94 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A163F231295D90D800086B94 /* UIKit */,
+				A163F232295D90DB00086B94 /* SwiftUI */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A163F22A295D8C9B00086B94 /* Composition */ = {
+			isa = PBXGroup;
+			children = (
+				A163F22F295D8D6D00086B94 /* MainQueueDispatchDecorator2.swift */,
+				A163F238295D920500086B94 /* SwiftUI */,
+				A163F237295D91F800086B94 /* UIKit */,
+			);
+			path = Composition;
+			sourceTree = "<group>";
+		};
+		A163F231295D90D800086B94 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A163F228295D8BBD00086B94 /* UserDetailsViewController.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		A163F232295D90DB00086B94 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				A163F233295D90E500086B94 /* UserDetailsView.swift */,
+				A163F235295D915B00086B94 /* UserDetailsViewModel.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		A163F237295D91F800086B94 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A163F22B295D8CA400086B94 /* UserDetailsViewControllerAdapter.swift */,
+				A163F22D295D8D3600086B94 /* UIKitUserDetailsFactory.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		A163F238295D920500086B94 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				A163F239295D924B00086B94 /* UserDetailsViewAdapter.swift */,
+				A163F23B295D928900086B94 /* SwiftUIUserDetailsFactory.swift */,
+			);
+			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,8 +362,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A163F22E295D8D3600086B94 /* UIKitUserDetailsFactory.swift in Sources */,
+				A163F21C295D843600086B94 /* RemoteUserDetailsLoader.swift in Sources */,
+				A163F240295D945F00086B94 /* UserViewWithViewModelAdapter.swift in Sources */,
+				A163F21E295D880300086B94 /* APIClient2.swift in Sources */,
 				A163F1E3295D70A000086B94 /* AppDelegate.swift in Sources */,
+				A163F23E295D939900086B94 /* UserListViewModel.swift in Sources */,
+				A163F20F295D7E4B00086B94 /* UserViewAdapter.swift in Sources */,
+				A163F234295D90E500086B94 /* UserDetailsView.swift in Sources */,
+				A163F202295D77D300086B94 /* APIClient.swift in Sources */,
+				A163F208295D7B9300086B94 /* UserItem.swift in Sources */,
+				A163F22C295D8CA400086B94 /* UserDetailsViewControllerAdapter.swift in Sources */,
+				A163F223295D892F00086B94 /* ApiClientStub2.swift in Sources */,
+				A163F1FA295D716C00086B94 /* UserLoader.swift in Sources */,
+				A163F23A295D924B00086B94 /* UserDetailsViewAdapter.swift in Sources */,
+				A163F213295D812600086B94 /* MainQueueDispatchDecorator.swift in Sources */,
+				A163F220295D881600086B94 /* UserDetailsMapper.swift in Sources */,
 				A163F1E5295D70A000086B94 /* SceneDelegate.swift in Sources */,
+				A163F229295D8BBD00086B94 /* UserDetailsViewController.swift in Sources */,
+				A163F242295D954B00086B94 /* UserFactoryWithViewModel.swift in Sources */,
+				A163F20B295D7BB000086B94 /* UserListViewController.swift in Sources */,
+				A163F236295D915B00086B94 /* UserDetailsViewModel.swift in Sources */,
+				A163F211295D7F4200086B94 /* UserFactory.swift in Sources */,
+				A163F219295D83D700086B94 /* UserDetailsLoader.swift in Sources */,
+				A163F230295D8D6D00086B94 /* MainQueueDispatchDecorator2.swift in Sources */,
+				A163F200295D773B00086B94 /* UserMapper.swift in Sources */,
+				A163F23C295D928900086B94 /* SwiftUIUserDetailsFactory.swift in Sources */,
+				A163F205295D781E00086B94 /* APIClientStub.swift in Sources */,
+				A163F226295D8AD000086B94 /* UserDetailsItem.swift in Sources */,
+				A163F217295D83A800086B94 /* UserDetails.swift in Sources */,
+				A163F1F8295D714400086B94 /* User.swift in Sources */,
+				A163F1FE295D768800086B94 /* RemoteUserLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
