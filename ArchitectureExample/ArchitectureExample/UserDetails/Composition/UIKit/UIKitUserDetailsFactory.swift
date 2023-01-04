@@ -12,11 +12,12 @@ final class UIKitUserDetailsFactory {
     
     static func makeUserDetailsListViewController(
         with user: User,
-        loader: UserDetailsLoader
+        loader: UserDetailsLoader,
+        selection: @escaping () -> Void
     ) -> UIViewController {
         let mainQueueLoader = MainQueueDispatchDecorator2(decoratee: loader)
         let adapter = UserDetailsViewControllerAdapter(id: user.id, loader: mainQueueLoader)
-        let controller = UserDetailsViewController(onDataLoadRequest: adapter.loadDetails)
+        let controller = UserDetailsViewController(onDataLoadRequest: adapter.loadDetails, selection: selection)
         adapter.controller = controller
         controller.title = "User Details"
         return controller

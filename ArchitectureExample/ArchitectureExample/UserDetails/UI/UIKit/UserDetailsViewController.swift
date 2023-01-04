@@ -16,18 +16,20 @@ final class UserDetailsViewController: UIViewController {
         return lbl
     }()
     
-    private let descriptionLabel: UILabel = {
-        let lbl = UILabel()
-        lbl.translatesAutoresizingMaskIntoConstraints = false
-        lbl.font = .systemFont(ofSize: 15, weight: .regular)
-        lbl.textColor = .red
-        return lbl
+    private lazy var descriptionButton: UIButton = {
+        let btn = UIButton(type: .system)
+        btn.translatesAutoresizingMaskIntoConstraints = false
+        btn.tintColor = .green
+        btn.addTarget(self, action: #selector(btnTapped), for: .primaryActionTriggered)
+        return btn
     }()
     
     private let onDataLoadRequest: () -> Void
+    private let selection: () -> Void
     
-    init(onDataLoadRequest: @escaping () -> Void) {
+    init(onDataLoadRequest: @escaping () -> Void, selection: @escaping () -> Void) {
         self.onDataLoadRequest = onDataLoadRequest
+        self.selection = selection
         
         super.init(nibName: nil, bundle: nil)
     }
@@ -41,7 +43,7 @@ final class UserDetailsViewController: UIViewController {
         
         view.backgroundColor = .white
         view.addSubview(ageLabel)
-        view.addSubview(descriptionLabel)
+        view.addSubview(descriptionButton)
         
         onDataLoadRequest()
     }
@@ -53,14 +55,18 @@ final class UserDetailsViewController: UIViewController {
             ageLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 8),
             ageLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
             
-            descriptionLabel.topAnchor.constraint(equalTo: ageLabel.bottomAnchor, constant: 8),
-            descriptionLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16)
+            descriptionButton.topAnchor.constraint(equalTo: ageLabel.bottomAnchor, constant: 8),
+            descriptionButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16)
         ])
     }
     
     func didFinishLoading(details: UserDetailsItem) {
         ageLabel.text = details.age
-        descriptionLabel.text = details.description
+        descriptionButton.setTitle(details.description, for: .normal)
+    }
+    
+    @objc private func btnTapped() {
+        selection()
     }
 }
 

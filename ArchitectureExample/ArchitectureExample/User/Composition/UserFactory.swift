@@ -6,17 +6,18 @@
 //
 
 import UIKit
+import Combine
 
 final class UserFactory {
     private init() {}
     
     static func makeUserListViewController(
-        loader: UserLoader,
+        loader: @escaping () -> AnyPublisher<[User], Error>,
         selection: @escaping (User) -> Void
     ) -> UIViewController {
-        let mainQueueLoader = MainQueueDispatchDecorator(decoratee: loader)
+//        let mainQueueLoader = MainQueueDispatchDecorator(decoratee: loader)
         let adapter = UserViewAdapter(
-            userLoader: mainQueueLoader,
+            userLoader: { loader().receive(on: DispatchQueue.main).eraseToAnyPublisher() },
             userSelection: selection
         )
         let controller = UserListViewController(onDataLoadRequest: adapter.loadUsers)
